@@ -5,7 +5,7 @@ namespace OpenFunctions\Tools\WebSearch;
 use OpenFunctions\Core\Contracts\AbstractOpenFunction;
 use OpenFunctions\Tools\WebSearch\Models\WebSearchParameter;
 
-class WebSearchTool extends AbstractOpenFunction
+class WebSearchOpenFunction extends AbstractOpenFunction
 {
     private WebSearchParameter $parameter;
 
